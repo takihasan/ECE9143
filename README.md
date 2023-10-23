@@ -2,6 +2,6 @@
 Course Name: Advanced Robotic AI 
 <br>
 Instructor: Prof. Yooseon Oh <br>
-Author: Taki Hasan Rafi <br>
+Author: Taki Hasan Rafi (DILAB) <br>
 Student ID: 2022274322 <br>
 ## Improved Domain Generalization
