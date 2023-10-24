@@ -18,3 +18,18 @@ CUDNN: 7603
 NumPy: 1.19.4
 PIL: 8.0.1
 ```
+
+### Dependencipes
+```
+prettytable==2.0.0
+numpy==1.19.4
+torch==1.7.0+cu92
+gdown==3.12.2
+imageio==2.9.0
+sconf==0.2.3
+torchvision==0.8.1+cu92
+tqdm==4.51.0
+tensorboard==2.3.0
+Pillow==8.1.0
+tensorboardX==2.1
+```
