@@ -1,7 +1,7 @@
 # ECE9143
 Course Name: Advanced Robotic AI 
 <br>
-Instructor: Prof. Yooseon Oh <br>
+Instructor: Prof. Yoonseon Oh <br>
 Author: Taki Hasan Rafi (DILAB) <br>
 Student ID: 2022274322 <br>
 ## Improved Domain Generalization
