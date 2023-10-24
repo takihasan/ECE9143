@@ -19,7 +19,7 @@ NumPy: 1.19.4
 PIL: 8.0.1
 ```
 
-### Dependencipes
+### Dependencies
 ```
 prettytable==2.0.0
 numpy==1.19.4
