@@ -6,8 +6,8 @@ Author: [Taki Hasan Rafi](https://takihasan.github.io/) (Data Intelligence Lab) 
 Student ID: 2022274322 <br>
 ## Improved Domain Generalization
 This code base in inspired by [SWAD](https://github.com/khanrc/swad/tree/main).
+### Environments
 
-###Environments
 Environments that are used in this project.
 ```
 Python: 3.8.6
