@@ -34,3 +34,8 @@ tensorboard==2.3.0
 Pillow==8.1.0
 tensorboardX==2.1
 ```
+
+To install all the dependencies, run this command.
+```
+pip install -r requirements.txt
+```
