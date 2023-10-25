@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ### Dataset Download
 In this project we will use these datasets [PACS](https://www.eecs.qmul.ac.uk/~dl307/project_iccv2017), [Officehome](https://www.hemanthdv.org/officeHomeDataset.html), [TerraInc](https://beerys.github.io/CaltechCameraTraps/), [DomainNet](https://ai.bu.edu/M3SDA/).
 <br>
-To donwload all the dataset all together, run this command.
+To donwload the datasets all together, run this command.
 ```
 python -m domainbed.scripts.download --data_dir=/my/datasets/path
 ```
