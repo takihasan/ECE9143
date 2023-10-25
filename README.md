@@ -41,15 +41,15 @@ pip install -r requirements.txt
 ```
 ### Dataset Download
 In this project we will use these datasets [PACS](https://www.eecs.qmul.ac.uk/~dl307/project_iccv2017), [Officehome](https://www.hemanthdv.org/officeHomeDataset.html), [TerraInc](https://beerys.github.io/CaltechCameraTraps/), [DomainNet](https://ai.bu.edu/M3SDA/).
-To run this project, we do not encourage to train DomainNet dataset. It takes > 12 hours to run in a i9-11세대 + 128GB메모리 + 24 GB RTX3090 GPU. 
-<br>
-To donwload the datasets all together, run this command.
+<br> To donwload the datasets all together, run this command.
 ```
 python -m domainbed.scripts.download --data_dir=/my/datasets/path
 ```
 
 ### How to Run
-`train_all.py` script conducts multiple leave-one-out cross-validations for all target domain.
+`train_all.py` script conducts multiple leave-one-out cross-validations for all target domain. 
+To run this project, we do not encourage to train DomainNet dataset. It takes > 12 hours to run in a i9-11세대 + 128GB메모리 + 24 GB RTX3090 GPU. 
+Here are the step-by-step commands to execute to run each dataset. 
 
 ```
 # PACS
@@ -60,8 +60,6 @@ python train_all.py PACS0 --dataset PACS --deterministic \
 python train_all.py OH0 --dataset OfficeHome --deterministic \
 --trial_seed 0 --steps 3000 --checkpoint_freq 300 --data_dir your_data_dir
 
-
 # TerraIncognita
 python train_all.py TR0 --dataset TerraIncognita --deterministic \
 --trial_seed 0 --checkpoint_freq 1000 --steps 5000 --data_dir your_data_dir
-
