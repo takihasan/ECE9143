@@ -48,4 +48,4 @@ python -m domainbed.scripts.download --data_dir=/my/datasets/path
 ```
 
 ### How to Run
-train_all.py script conducts multiple leave-one-out cross-validations for all target domain.
+`train_all.py` script conducts multiple leave-one-out cross-validations for all target domain.
