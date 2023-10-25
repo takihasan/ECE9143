@@ -39,3 +39,5 @@ To install all the dependencies, run this command in your local machine.
 ```
 pip install -r requirements.txt
 ```
+### Dataset Download
+In this project we will use these datasets [PACS](https://www.eecs.qmul.ac.uk/~dl307/project_iccv2017), [Officehome](https://www.hemanthdv.org/officeHomeDataset.html), [TerraInc](https://beerys.github.io/CaltechCameraTraps/), [DomainNet](https://ai.bu.edu/M3SDA/).
