@@ -20,6 +20,7 @@ PIL: 8.0.1
 ```
 
 ### Dependencies
+These are the dependencies in this project.
 ```
 prettytable==2.0.0
 numpy==1.19.4
