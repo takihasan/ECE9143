@@ -53,13 +53,16 @@ Here are the step-by-step commands to execute to run each dataset.
 
 ```
 # PACS
-python train_all.py PACS0 --dataset PACS --deterministic \
---trial_seed 0 --checkpoint_freq 300 --steps 5000 --data_dir your_data_dir
+data_dir= your_data_dir
+LD_LIBRARY_PATH="" CUDA_VISIBLE_DEVICES=0 python3 train_all.py PACS0 --dataset PACS --deterministic \
+--trial_seed 0 --checkpoint_freq 300 --steps 5000 --data_dir $data_dir
 
 # OfficeHome
-python train_all.py OH0 --dataset OfficeHome --deterministic \
+data_dir= your_data_dir
+LD_LIBRARY_PATH="" CUDA_VISIBLE_DEVICES=0 python3 train_all.py OH0 --dataset OfficeHome --deterministic \
 --trial_seed 0 --steps 3000 --checkpoint_freq 300 --data_dir your_data_dir
 
 # TerraIncognita
-python train_all.py TR0 --dataset TerraIncognita --deterministic \
+data_dir= your_data_dir
+LD_LIBRARY_PATH="" CUDA_VISIBLE_DEVICES=0 python3 train_all.py TR0 --dataset TerraIncognita --deterministic \
 --trial_seed 0 --checkpoint_freq 1000 --steps 5000 --data_dir your_data_dir
