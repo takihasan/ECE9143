@@ -68,7 +68,7 @@ LD_LIBRARY_PATH="" CUDA_VISIBLE_DEVICES=0 python3 train_all.py TR0 --dataset Ter
 --trial_seed 0 --checkpoint_freq 1000 --steps 5000 --data_dir your_data_dir
 ```
 ### Sample Results
-Results can be found in the log.txt in `train_output` folder after finishing the training. This result is obtained on PACS dataset in seed 0.
+Results can be found in the log.txt in `train_output` folder after finishing the training. This result is obtained on PACS dataset in seed 0. Where SWAD row is the main result on the specific dataset.
 
 
 | Selection  | art_painting | cartoon |  photo  |  sketch |   Avg.  |
@@ -80,4 +80,4 @@ Results can be found in the log.txt in `train_output` folder after finishing the
 | iid (inD)  |   97.430%    | 96.124% | 96.489% | 96.915% | 96.740% |
 |    SWAD    |   91.275%    | 83.102% | 97.904% | 83.969% | 89.063% |
 | SWAD (inD) |   97.983%    | 96.874% | 96.956% | 98.002% | 97.454% |
-|------------|--------------|---------|---------|---------|---------|
+
