@@ -69,9 +69,10 @@ LD_LIBRARY_PATH="" CUDA_VISIBLE_DEVICES=0 python3 train_all.py TR0 --dataset Ter
 ```
 ### Sample Results
 Results can be found in the log.txt in `train_output` folder after finishing the training. This result is obtained on PACS dataset in seed 0.
----------------------------------------------------------------------
+
+
 | Selection  | art_painting | cartoon |  photo  |  sketch |   Avg.  |
----------------------------------------------------------------------
+|------------|--------------|---------|---------|---------|---------|
 |   oracle   |   86.150%    | 81.663% | 97.081% | 82.411% | 86.826% |
 |    iid     |   84.930%    | 80.757% | 96.557% | 83.142% | 86.347% |
 |    last    |   84.991%    | 78.092% | 96.257% | 75.159% | 83.625% |
@@ -79,4 +80,4 @@ Results can be found in the log.txt in `train_output` folder after finishing the
 | iid (inD)  |   97.430%    | 96.124% | 96.489% | 96.915% | 96.740% |
 |    SWAD    |   91.275%    | 83.102% | 97.904% | 83.969% | 89.063% |
 | SWAD (inD) |   97.983%    | 96.874% | 96.956% | 98.002% | 97.454% |
----------------------------------------------------------------------
+|------------|--------------|---------|---------|---------|---------|
